@@ -15,9 +15,9 @@ target "jenkins-agent-dind" {
     inherit = "base"
     target = "jenkins-agent-dind"
     args = {
-        JENKINS_AGENT_VERSION = "3261.v9c670a_4748a_9-8"
+        JENKINS_AGENT_VERSION = "3283.v92c105e0f819-8"
     }
     tags = [
-        "ghcr.io/shibadog/jenkins-agent-dind:2-3261"
+        "ghcr.io/shibadog/jenkins-agent-dind:3283.v92c105e0f819-8"
     ]
 }
